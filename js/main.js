@@ -68,8 +68,153 @@
 //   console.log(powersOfTwo(2))
 
 //08
-function nearestSq(n){
-    return Math.pow(Math.round(Math.sqrt(n)), 2)
+// function nearestSq(n){
+//     return Math.pow(Math.round(Math.sqrt(n)), 2)
+// }
+
+// console.log(nearestSq(8))
+
+//09
+// function multipleOfIndex(array) {
+//     let newArr = []
+//     for (i = 0; i <= array.length; i++) {
+//         if (array[i] % i === 0) {
+//             newArr.push(array[i])
+//         }
+//     }
+//     return newArr
+//   }
+
+//   console.log(multipleOfIndex([22, -6, 32, 82, 9, 25]))
+
+// //10
+// function toCsvText(array) {
+//     return array.join('\n')
+//  }
+
+//  console.log(toCsvText([
+//     [0, 1,2,3,4],
+//     [10,11,12,13,14],
+//     [20,21,22,23,24],
+//  ]));
+
+// //11
+// function multiTable(number) {
+//     for (i = 1; i <= 10; i++) {
+//       console.log(i + ' * ' + number + " = " + i*number)
+//     }
+//   }
+
+// multiTable(5);
+
+//12 
+// function typeOfSum(a, b) {
+//     return typeof(a + b)
+//   }
+
+//   console.log(typeOfSum(10, 20))
+
+//13
+// const phrases = [
+//     "I love you",
+//     "a little",
+//     "a lot",
+//     "passionatley",
+//     "madly",
+//     "not at all",
+// ]
+
+// function howMuchILoveYou(n) {
+//     return phrases[(n-1) % phrases.length]
+// }
+
+// console.log(howMuchILoveYou(10))
+
+// //14
+// function DNAtoRNA(dna) {
+//     return dna.split("T").join("U");
+//   }
+
+//   console.log(DNAtoRNA("GCAT"))
+
+//15
+
+// function fixTheMeerkat(arr) {
+//     return arr.reverse()
+//   }
+
+//   console.log(fixTheMeerkat(["tail", "body", "head"]))
+
+//16
+// function findMultiples(integer, limit) {
+//     let newArr = [];
+//     for (i = 1; i <= limit; i++) {
+//         if (i % integer === 0) {
+//             newArr.push(i)
+//         }
+//     }
+//     return newArr;
+//   }
+
+//   console.log(findMultiples(2,6))
+
+// //17
+// function abbrevName(name){
+//     let newArr = name.split(" ")
+//     let firstI = newArr[0][0]
+//     let lastI = newArr[1][0]
+
+//     return firstI + "." + lastI + "."
+// }
+
+// console.log(abbrevName("Michael Gandolfi"))
+
+//18 
+// function noSpace(x){
+//     return x.split(" ").join("")
+//   }
+
+//   console.log(noSpace("Michael Porter Gandolfi"))
+  
+//19
+// function countPositivesSumNegatives(input) {
+
+//     if (input == null || input.length == 0) {
+//         return [];
+//     }
+
+//     let positive = 0;
+//     let negative = 0;
+    
+//     for (i = 0; i < input.length; i++) {
+//       if (input[i] > 0) {
+//         positive++
+//       } else {
+//         negative += input[i]
+//       }
+//     }
+//     return [positive, negative]
+//   }
+
+//   console.log(countPositivesSumNegatives([1,2,3,4,5,6,7,8,9,10,-11,-12,-13,-14,-15]))
+
+//20
+// function findAverage(array) {
+//     if (array.length === 0) {
+//         return 0
+//     } else {
+//         return array.reduce((acc, c) => acc + c) / array.length
+//     }
+
+//   }
+
+//   console.log(findAverage([10,20,30]))
+
+//21
+function firstNonConsecutive (arr) {
+    for (i = i; i <arr.length; i++) {
+
+    }
 }
 
-console.log(nearestSq(8))
+console.log(firstNonConsecutive([1,2,3,4,6,7,8]))
