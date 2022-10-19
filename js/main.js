@@ -211,10 +211,49 @@
 //   console.log(findAverage([10,20,30]))
 
 //21
-function firstNonConsecutive (arr) {
-    for (i = i; i <arr.length; i++) {
+// function firstNonConsecutive (arr) {
+//     for (i = 0; i <arr.length - 1; i++) {
+//         if (arr[i] + 1 !== arr[i + 1]) {
+//             return arr[i + 1]
+//         }
+//     }
+//     return null
+// }
 
-    }
-}
+// console.log(firstNonConsecutive([1,2,3,4,6,7,8]))
 
-console.log(firstNonConsecutive([1,2,3,4,6,7,8]))
+//22
+// function seatsInTheater(nCols, nRows, col, row) {
+//     return (nCols-col+1) * (nRows-row)
+// }
+
+//23
+// function index(array, n){
+
+//     if (n >= array.length) {
+//         return -1
+//     } else {
+//         return array[n] ** n
+//   }
+// }
+//   console.log(index([1,2,3], 3))
+
+//24 
+// var countSheep = function (num){
+//     let str = ""
+//     for (i = 1; i <= num; i++) {
+//         str+= `${i} sheep...`
+//     }
+//     return str
+//   }
+
+// console.log(countSheep(3))
+
+//25
+function removeChar(str){
+    return str.slice(1,-1)
+   };
+
+console.log(removeChar("Michael"))
+   
+   
