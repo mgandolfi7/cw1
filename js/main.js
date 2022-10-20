@@ -258,6 +258,31 @@
    
 //26
 
-function getRealFloor(n) {
-    return n > 13 ? n - 2 : n > 0 ? n - 1 : n;
+// function getRealFloor(n) {
+//     return n > 13 ? n - 2 : n > 0 ? n - 1 : n;
+//   }
+
+//27
+//   const points=games=>games.reduce((output,current)=>{
+//     return output += current[0]>current[2] ? 3 : current[0]===current[2] ? 1 : 0;
+//   },0)
+
+//28
+// function makeUpperCase(str) {
+//     return str.toUpperCase()
+//   }
+
+//29
+function countSheeps(arrayOfSheep) {
+    let numTrue = 0;
+
+    for (i = 0; i < arrayOfSheep.length; i++) {
+        if (arrayOfSheep[i] === true) {
+            numTrue++
+        }
+    }
+    return numTrue
+
   }
+
+  console.log(countSheeps([true, false, true, false, true, true]))
