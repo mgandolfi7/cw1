@@ -304,7 +304,12 @@
 
 // console.log(vaporcode("Michael Gandolfi"))
 
+//32
 function modifyMultiply(str,i,n) {
     return Array(n).fill(str.split(' ')[i]).join('-');
   } 
-  
+
+//33
+  function isIsogram(str){
+    return new Set(str.toUpperCase()).size == str.length;
+  }
