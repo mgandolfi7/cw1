@@ -273,16 +273,26 @@
 //   }
 
 //29
-function countSheeps(arrayOfSheep) {
-    let numTrue = 0;
+// function countSheeps(arrayOfSheep) {
+//     let numTrue = 0;
 
-    for (i = 0; i < arrayOfSheep.length; i++) {
-        if (arrayOfSheep[i] === true) {
-            numTrue++
-        }
+//     for (i = 0; i < arrayOfSheep.length; i++) {
+//         if (arrayOfSheep[i] === true) {
+//             numTrue++
+//         }
+//     }
+//     return numTrue
+
+//   }
+
+//   console.log(countSheeps([true, false, true, false, true, true]))
+
+//30
+function powersOfTwo(n){
+    newArr = []
+    
+    for (i = 0; i < n.length; i++) {
+      newArr.push(i^2)
     }
-    return numTrue
-
+    return newArr
   }
-
-  console.log(countSheeps([true, false, true, false, true, true]))
