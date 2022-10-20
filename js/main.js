@@ -250,10 +250,14 @@
 // console.log(countSheep(3))
 
 //25
-function removeChar(str){
-    return str.slice(1,-1)
-   };
+// function removeChar(str){
+//     return str.slice(1,-1)
+//    };
 
-console.log(removeChar("Michael"))
+// console.log(removeChar("Michael"))
    
-   
+//26
+
+function getRealFloor(n) {
+    return n > 13 ? n - 2 : n > 0 ? n - 1 : n;
+  }
