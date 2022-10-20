@@ -298,8 +298,13 @@
 //   }
 
 //31 
-function vaporcode(string) {
-    return string.split(" ").join("").split("").join("  ").toUpperCase()
-}
+// function vaporcode(string) {
+//     return string.split(" ").join("").split("").join("  ").toUpperCase()
+// }
 
-console.log(vaporcode("Michael Gandolfi"))
+// console.log(vaporcode("Michael Gandolfi"))
+
+function modifyMultiply(str,i,n) {
+    return Array(n).fill(str.split(' ')[i]).join('-');
+  } 
+  
