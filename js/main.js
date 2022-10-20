@@ -288,11 +288,18 @@
 //   console.log(countSheeps([true, false, true, false, true, true]))
 
 //30
-function powersOfTwo(n){
-    newArr = []
+// function powersOfTwo(n){
+//     newArr = []
     
-    for (i = 0; i < n.length; i++) {
-      newArr.push(i^2)
-    }
-    return newArr
-  }
+//     for (i = 0; i < n.length; i++) {
+//       newArr.push(i^2)
+//     }
+//     return newArr
+//   }
+
+//31 
+function vaporcode(string) {
+    return string.split(" ").join("").split("").join("  ").toUpperCase()
+}
+
+console.log(vaporcode("Michael Gandolfi"))
