@@ -316,15 +316,26 @@
 
 //34
 
-function sumEvenNumbers(input) {
-  let evenNums = [];
-  for (i = 0; i<= input.length; i++) {
-    if (input[i] % 2 === 0) {
-      evenNums.push(input[i])
-    }
-  }
-  let sum = evenNums.reduce((acc, c) => acc + c)
-  return sum
-}
+// function sumEvenNumbers(input) {
+//   let evenNums = [];
+//   for (i = 0; i<= input.length; i++) {
+//     if (input[i] % 2 === 0) {
+//       evenNums.push(input[i])
+//     }
+//   }
+//   let sum = evenNums.reduce((acc, c) => acc + c)
+//   return sum
+// }
 
-console.log(sumEvenNumbers([10,2,3,5,9,7]))
+// console.log(sumEvenNumbers([10,2,3,5,9,7]))
+
+//35 
+// function toNumberArray(stringarray){
+//   let newArr = []
+//   for (i = 0; i < stringarray.length; i++) {
+//     newArr.push(Number(stringarray[i]))
+//   }
+//   return newArr
+// }
+
+// console.log(toNumberArray(["10", "2", "5"]))
