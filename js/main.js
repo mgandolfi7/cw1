@@ -339,3 +339,10 @@
 // }
 
 // console.log(toNumberArray(["10", "2", "5"]))
+
+//36
+function descendingOrder(n){
+  return (String(n).split("").sort().reverse().join())
+}
+
+console.log(descendingOrder(42145))
