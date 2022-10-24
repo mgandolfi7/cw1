@@ -304,12 +304,27 @@
 
 // console.log(vaporcode("Michael Gandolfi"))
 
-//32
-function modifyMultiply(str,i,n) {
-    return Array(n).fill(str.split(' ')[i]).join('-');
-  } 
+// //32
+// function modifyMultiply(str,i,n) {
+//     return Array(n).fill(str.split(' ')[i]).join('-');
+//   } 
 
-//33
-  function isIsogram(str){
-    return new Set(str.toUpperCase()).size == str.length;
+// //33
+//   function isIsogram(str){
+//     return new Set(str.toUpperCase()).size == str.length;
+//   }
+
+//34
+
+function sumEvenNumbers(input) {
+  let evenNums = [];
+  for (i = 0; i<= input.length; i++) {
+    if (input[i] % 2 === 0) {
+      evenNums.push(input[i])
+    }
   }
+  let sum = evenNums.reduce((acc, c) => acc + c)
+  return sum
+}
+
+console.log(sumEvenNumbers([10,2,3,5,9,7]))
