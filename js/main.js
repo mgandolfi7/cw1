@@ -377,13 +377,47 @@
 // console.log(isSquare([1,4,16]))
 
 //4 
-function disemvowel(str) {
-  let vowels = 'a,e,i,o,u'
+// function disemvowel(str) {
+//   let vowels = 'aeiou'
 
-  for (i = 0; i <= str.lenght; i++) {
+//   for (i = 0; i <= str.lenght; i++) {
 
-  }
-  return str;
+
+//   }
+// }
+
+// console.log(disemvowel('This website is for losers LOL!'))
+
+//5 
+// function getCount(str) {
+//   let vowels = ["a", "e", "i", "o", "u"]
+//   let count = 0
+
+//   for (var i = 0; i < str.length; i++) {
+//     for (var j = 0; j < vowels.length; j++) {
+//       if (str[i] === vowels[j])
+//       count++
+//     }
+//   }
+//   return count
+
+// }
+
+// console.log(getCount('Hello'))
+
+//6 
+// var isSquare = function(n){
+//   return Math.sqrt(n) % 1 === 0 ? true : false
+// }
+
+// console.log(isSquare(10))
+
+//7 
+function highAndLow(numbers){
+  let max = Math.max.apply(null, numbers.split(" ").map(Number))
+  let min = Math.min.apply(null, numbers.split(" ").map(Number))
+
+  return(max + " " + min)
 }
 
-console.log(disemvowel('This website is for losers LOL!'))
+console.log(highAndLow("1 2 3 4 5"))
