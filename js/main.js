@@ -412,12 +412,30 @@
 
 // console.log(isSquare(10))
 
-//7 
-function highAndLow(numbers){
-  let max = Math.max.apply(null, numbers.split(" ").map(Number))
-  let min = Math.min.apply(null, numbers.split(" ").map(Number))
+// //7 
+// function highAndLow(numbers){
+//   let max = Math.max.apply(null, numbers.split(" ").map(Number))
+//   let min = Math.min.apply(null, numbers.split(" ").map(Number))
 
-  return(max + " " + min)
-}
+//   return(max + " " + min)
+// }
 
-console.log(highAndLow("1 2 3 4 5"))
+// console.log(highAndLow("1 2 3 4 5"))
+
+//8
+// function vowelOne(s){
+//   return 
+// }
+
+// console.log(vowelOne("Hello"))
+
+//9
+// function getSumOfDigits(integer) {
+//   let string = String(integer)
+//   let count = 0
+//   for (i = 0; i < string.lenght; i++) {
+
+//   }
+// }
+
+// console.log(getSumOfDigits(123))
