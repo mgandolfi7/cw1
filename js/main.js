@@ -340,9 +340,43 @@
 
 // console.log(toNumberArray(["10", "2", "5"]))
 
-//36
-function descendingOrder(n){
-  return (String(n).split("").sort().reverse().join())
-}
+// //36
+// function descendingOrder(n){
+//   return (String(n).split("").sort().reverse().join())
+// }
 
-console.log(descendingOrder(42145))
+// console.log(descendingOrder(42145))
+
+//11/7/2022
+
+//1
+
+//   let vowels = ["a","e","i","o","u"]
+  
+//   const swap = s => s.split('').map(x => vowels.includes(x) ? x.toUpperCase() : x).joij('')
+
+// console.log(swap("Hello"));
+//2 
+// function squares(x, n) {
+//   let newArr = []
+//   for (i = 0; i < n; i++) {
+//     newArr.push(x)
+//     x*= x
+//   }
+//   return newArr
+// }
+
+// console.log(squares(2,5))
+
+//3
+
+// var isSquare = function(arr){
+//   return arr.every(x => Math.sqrt(x) % 1 === 0) ? true : false 
+// }
+
+// console.log(isSquare([1,4,16]))
+
+//4 
+function disemvowel(str) {
+  return str;
+}
